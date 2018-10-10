@@ -1,0 +1,10 @@
+
+vscode下github使用：
+使用快捷键ctrl + `调出终端
+git config --global user.name "username"   #设置用户名
+git config --global user.email "email"    # 你的邮箱
+git config --global core.autocrlf  false    # linux 平台换行为 lf，window 平台换行为 crlf，禁止 window 平台自动转换换行为 crlf
+
+git init #初始化仓库
+
+git clone https://github.com/wangyangting/spark-doc-zh.git   #clone github仓库
